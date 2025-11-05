@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Signup.css"; 
+import "./signup.css"; 
 import Logo from '../../assets/logo.svg';
 import { Link } from "react-router-dom";
 
