@@ -1,0 +1,77 @@
+.foot h3{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 18px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.footer{
+background: #FF833C;
+padding-top: 40px;
+height: 537px;
+}
+.foot p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+width: 296px;
+padding-top: 25px;
+}
+.footer-section h4{
+    font-family: Roboto;
+font-weight: 500;
+font-size: 18px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+
+}
+.footer-section ul{
+    list-style: none;
+    color: white;
+}
+.footer-section ul li{
+    padding-top: 15px;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+}
+.footer-section p{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 16px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+}
+.footer-section{
+    text-align: center;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.footer-bottom{
+    color: white;
+    font-family: Roboto;
+font-weight: 400;
+font-size: 14px;
+/* leading-trim: NONE; */
+line-height: 100%;
+letter-spacing: 0%;
+padding-left: 70px;
+
+}
