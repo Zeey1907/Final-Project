@@ -75,3 +75,28 @@ letter-spacing: 0%;
 padding-left: 70px;
 
 }
+@media (max-width: 320px) {
+    .foot p{
+        font-size: 20px;
+        width: 30px;
+
+    }
+    .footer-section h4{
+        font-size: 15px;
+        width: 20px;
+    }
+    .footer-section ul li{
+        font-size: 15px;
+        width: 20px;
+    }
+    .footer-content{
+        /* gap: 2px; */
+        width: 320px;
+    }
+    /* * { */
+        /* overflow-x: hidden; */
+        /* width: 60%; */
+        /* max-width: 320px; */
+    /* } */
+    
+}

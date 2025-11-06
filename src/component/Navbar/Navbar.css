@@ -8,6 +8,8 @@
 .nav-container{
     padding-top: 50px;
     background: #FFF6F2;
+    width: 100%;
+    max-width: 1440px;
 
 
 }
@@ -52,4 +54,17 @@ box-shadow: 0px 2px 6px 0px #E3E4E41F;
 box-shadow: 0px 10px 20px 0px #E3E4E42E;
 font-family: roboto;
 
+}
+@media (max-width: 320px) {
+   .nav-h5{
+    font-size: 30px;
+    width: 200px;
+   } 
+   .nav-image{
+    width: 90px;
+   }
+   .nav-p{
+    width: 210px;
+    font-size: 18px;
+   }
 }

@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 
+
 function Header() {
     const [isOpen, setIsOpen] = React.useState(false);
 
@@ -25,27 +26,29 @@ function Header() {
                     </Link>
                     
                 </ul>
-            </nav>
+                </nav>
             </div>
+            
                         
             <Link to ='/Signup'>
             <button className='header-button'>Sign up</button>
             </Link>
             
+
+            
             
              <div
-        className={`hamburger ${isOpen ? "active" : ""}`}
-        onClick={() => setIsOpen(!isOpen)}
-        >
+       className={`hamburger ${isOpen ? "active" : ""}`}
+     onClick={() => setIsOpen(!isOpen)}
+       >
         <span></span>
+       <span></span>
         <span></span>
-        <span></span>
-      </div>
+      </div> 
 </div>
-          
-        {/* </div> */}
+           
+{/* //          </div> */}
         </>
-
-    );
+    );  
 }
 export default Header;

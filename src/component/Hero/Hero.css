@@ -43,6 +43,8 @@ margin-right: 15px;
 }
 .header-form{
     padding-left: 120px;
+    max-width: 520px;
+    width: 100%;
     /* display: flex; */
     
 }
@@ -74,11 +76,12 @@ margin-right: 15px;
 .big-div{
     display: flex;
     justify-content: space-between;
+    gap: 400px;
     align-items: center;
     padding-left: 64px;
     padding-right: 70px;
     /* width: 100%; */
-    max-width: 1440px;
+    max-width: 440px;
 }
 .h3{
     font-family: Roboto;
@@ -171,6 +174,66 @@ color: #FF4F01;
 
     
 }
+@media (max-width: 768px) {
+    .header-second{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    
+}
+@media (max-width: 320px) {
+   .header-image{
+    display: none;
+   } 
+    .Header-h1{
+     font-size: 30px;
+     width: 400px;
+    }
+    .big-div{
+        width: 100%;
+        max-width: 320px;
+    }
+    .hero-cont{
+        width: 100%;
+        max-width: 320px;
+    }
+    .big-div{
+        padding-left: 0px;
+        padding-right: 0px;
+        gap: 5px;
+        
+    }
+    .man-ipad{
+        width: 85px;
+        /* height: 100px; */
+    }
+    .h3{
+        font-size: 14px;
+        width: 200px;
+    }
+    .h2{
+        font-size: 21px;
+    }
+    .p{
+        font-size: 11px;
+        width: 200px;
+    }
+}
+@media (max-width:425px) {
+    .big-div{
+        gap: 20px;
+    }
+    
+}
+@media (max-width:768px) {
+    .big-div{
+        gap: 100px;
+    }
+    
+}
+
 
 
 

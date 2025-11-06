@@ -6,6 +6,7 @@ import laptop from '../../assets/laptop.svg'
 import pay from '../../assets/pay.svg'
 import money from '../../assets/money.svg'
 import bitcoin from '../../assets/bitcoin.svg'
+import { Link } from 'react-router-dom'
 
 
 
@@ -24,7 +25,9 @@ const Navbar = () => {
             <p className='nav-p'>
 Plus, all our data packages come at affordable prices.Get started with us today.
             </p>
+            <Link to ='/Investment'>
             <button className='nav-button'>Proceed</button>
+            </Link>
         </div>
         </section>  
         <section className='nav-section'>

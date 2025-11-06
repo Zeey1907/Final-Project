@@ -177,4 +177,18 @@ color: #000;
 text-align: center;
 
      }
-     
+   @media (max-width:320px) {
+    .sect-section{
+        display: block;
+        text-align: center;
+    }
+    .sect-p{
+        font-size: 16px;
+        width: 250px;
+    }
+    .testimony p{
+        font-size: 16px;
+        width: 250px;
+    }
+    
+   }  
