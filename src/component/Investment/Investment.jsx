@@ -1,6 +1,6 @@
 import React from "react";
 import "./Investment.css";
-import Logo from "../../assets/Logo.svg";
+import Logo from "../../assets/logo.svg";
 import Vector from "../../assets/Vector.svg";
 import woman from "../../assets/Ellipse 9.svg";
 
