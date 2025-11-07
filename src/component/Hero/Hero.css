@@ -94,9 +94,9 @@ color: #FF4F01;
 
 
 }
-.header-button{
+.hero-button{
     width: 89px;
-/* height: 38px; */
+height: 38px;
 /* angle: 0 deg; */
 /* opacity: 1; */
 top: 30px;
@@ -156,7 +156,7 @@ width: 300px;
 /* color: #FF4F01; */
 
 }
-.last-div h4{
+.l-div h4{
 font-family: Roboto;
 font-weight: 700;
 font-size: 36px;
@@ -166,10 +166,10 @@ line-height: 100%;
 color: #FF4F01;
 
 }
-.last-div p{
+.l-div p{
     font-family: Roboto;
 }
-.last-div{
+.l-div{
     padding-left: 40px;
 
     

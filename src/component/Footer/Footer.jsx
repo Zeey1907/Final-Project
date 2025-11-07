@@ -1,9 +1,15 @@
 import React from 'react'
 import './Footer.css'
+import { FaFacebookF } from "react-icons/fa";
+import { FaSquareInstagram } from "react-icons/fa6";
+import { IoLogoTwitter } from "react-icons/io5";
 
 const Footer = () => {
   return (
     <div>
+      <div className='mssg'>
+        <p>Send a Message</p>
+      </div>
     <footer className="footer">
       <div className="footer-content">
         <div className="foot">
@@ -46,8 +52,13 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p>© 2019 All Rights Reserved</p>
-        <div className="socials">
-        </div>
+        <p className='pd'>
+        <span><FaFacebookF /></span>
+                  <span><FaSquareInstagram /></span>
+                  <span><IoLogoTwitter /></span>
+                  </p>
+        {/* <div className="socials"> */}
+        {/* </div> */}
       </div>
 
       {/* <div className="chat-button">

@@ -28,10 +28,10 @@ const Hero = () => {
                             {/* </form> */} 
                             <div className='header-form-div'>
                             <div className='header-form'>
-                                <button className='header-button'>Services</button>
+                                <button className='hero-button'>Services</button>
                                 <input className='header-input' type='text' placeholder='Investment'/>
                                 <Link to ='/Signup'>
-                                <button className='header-button'>Signup</button>
+                                <button className='hero-button'>Signup</button>
                                 </Link>
                             </div>
                             </div>
@@ -93,7 +93,7 @@ const Hero = () => {
         
                     </div>
                 </div>
-                 <div className='last-div'>
+                 <div className='l-div'>
                             <h4>
                                 Our Services
                             </h4>

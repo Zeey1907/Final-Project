@@ -38,7 +38,9 @@ Plus, all our data packages come at affordable prices.Get started with us today.
                 <p className='nav-p'>
 Plus, all our data packages come at affordable prices.Get started with us today.
                 </p>
+                <Link to ='/Data' >
                 <button className='nav-button'>Proceed</button>
+                </Link>
             </div>
             <div>
               <img src={wifi} alt="wifi" className='nav-image'/>  

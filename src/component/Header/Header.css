@@ -134,18 +134,25 @@ text-align: center;
   .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(5px, -5px);
   }
+  .header-button{
+    display: none
+  }
 };
 
 @media (max-width: 320px) {
   .header-container{
     width: 100%;
     max-width: 320px;
+    padding-left: 0px;
+    
    
     
   }
   .header-logo{
     padding-top: 0px;
   }
+  
+  
 
   
 }

@@ -5,6 +5,7 @@ import LogPG from './Pages/LogPG/LogPG';
 import InvestmentPg from './Pages/InvestmentPG/InvestmentPg';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import InvestmentPG from './Pages/InvestmentPG/InvestmentPg';
+import DataPG from './Pages/DataPG/DataPG';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path ='/signup' element ={<SignupPG />} />
             <Route path ='/Login' element ={<LogPG />} />
             <Route path ='/Investment' element ={<InvestmentPg />} />
+            <Route path ='/Data' element={<DataPG />} />
         </Routes>
        </Router> 
             
