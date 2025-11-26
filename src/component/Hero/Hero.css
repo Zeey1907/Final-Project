@@ -220,6 +220,10 @@ color: #FF4F01;
         font-size: 11px;
         width: 200px;
     }
+    .big-div{
+        gap: 10px;
+    }
+    
 }
 @media (max-width:425px) {
     .big-div{

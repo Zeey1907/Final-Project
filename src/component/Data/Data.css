@@ -260,5 +260,10 @@ color: #FF833C;
 .span span{
     padding-right: 20px;
 }
+@media (max-width:320px) {
+   .overall{
+    flex-direction: column;
+   } 
+}
 
 
